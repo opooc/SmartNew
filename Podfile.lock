@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BmobSDK (2.2.8)
+  - OHMySQL (2.1.3)
+  - RongCloudIM/IMKit (2.8.26):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.26)
+  - UMengUShare/Core (6.4.8.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8.1)
+  - UMengUShare/Social/ReducedQQ (6.4.8.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8.1):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.8.1):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - AFNetworking
+  - BmobSDK
+  - OHMySQL
+  - RongCloudIM/IMKit (~> 2.8.3)
+  - RongCloudIM/IMLib (~> 2.8.3)
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BmobSDK: 8ee987736c9b766a688ea8e0274ce4748db2255e
+  OHMySQL: 8bc54d2b8b9e1acfa0e652b18856a9cdbb24c431
+  RongCloudIM: 895b1f6079b231846c04487699ca85c0b881cc68
+  UMengUShare: 9e2d22f32aeaf09702ca833ec530895aab995c4f
+
+PODFILE CHECKSUM: cb98fdcd6e84c2498e958b0822f6d94869558869
+
+COCOAPODS: 1.3.1
