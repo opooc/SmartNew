@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HOy-jx-lbS"/>
+                        <viewControllerLayoutGuide type="bottom" id="O3Z-2d-oAK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="世界因你而美好 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zox-1F-hCy">
+                                <rect key="frame" x="0.0" y="605.5" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.66409509349999996" green="0.1548242037" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@opooc.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYg-rh-8yd">
+                                <rect key="frame" x="16" y="646.5" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SmartCompus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPP-KD-iJi">
+                                <rect key="frame" x="0.0" y="120" width="375" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.66409509349999996" green="0.1548242037" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cPP-KD-iJi" secondAttribute="trailing" id="2ID-u5-0Tv"/>
+                            <constraint firstAttribute="trailing" secondItem="zox-1F-hCy" secondAttribute="trailing" id="HP9-tP-a2u"/>
+                            <constraint firstItem="cPP-KD-iJi" firstAttribute="top" secondItem="HOy-jx-lbS" secondAttribute="bottom" constant="100" id="IIm-OX-9NQ"/>
+                            <constraint firstItem="rYg-rh-8yd" firstAttribute="top" secondItem="zox-1F-hCy" secondAttribute="bottom" constant="20" id="LcV-2F-jZp"/>
+                            <constraint firstItem="cPP-KD-iJi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="PAX-NE-SYu"/>
+                            <constraint firstItem="zox-1F-hCy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="SKf-QQ-L5K"/>
+                            <constraint firstItem="rYg-rh-8yd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="dkf-A2-MfD"/>
+                            <constraint firstItem="O3Z-2d-oAK" firstAttribute="top" secondItem="rYg-rh-8yd" secondAttribute="bottom" id="qUS-s6-7mT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rYg-rh-8yd" secondAttribute="trailing" id="voY-5S-9qJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
